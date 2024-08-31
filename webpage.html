@@ -1,0 +1,29 @@
+<html>
+<head>
+    
+    <!-- Link Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!-- Link Bootstrap JS and Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+    
+    <h1> Dictionar </h1>
+
+    <label for="addWord">Adauga un cuvant:</label>
+    <input type="text" id="addWord" placeholder="Introdu cuvantul">
+    <button onclick="addWord()">Salveaza cuvantul</button>
+
+    <label for="searchWord">Cauta un cuvant:</label>
+    <input type="text" id="searchWord" placeholder="Introdu cuvantul">
+    <button onclick="searchWord()">Cauta</button>
+
+    <p id="message"></p>
+
+    <script src = "dictionary.js"> </script>
+
+</body>
+</html>
